@@ -2,6 +2,41 @@
 Use of SVM Classifier and improving recall score 
 
 
+🩺 Diabetes Prediction using SVM Classifier
+
+This project uses a Support Vector Machine (SVM) classifier to predict whether a person has diabetes based on medical attributes. The dataset used is the Pima Indians Diabetes Dataset.
+
+📂 Project Overview
+
+Preprocesses the dataset (handling duplicates, scaling features).
+
+Splits the data into training and test sets.
+
+Trains an SVM with a linear kernel on standardized data.
+
+Evaluates the model using accuracy, precision, and recall.
+
+Builds a predictive system where you can input patient data and get a prediction.
+
+⚙️ Technologies Used
+
+Python 🐍
+
+NumPy, Pandas
+
+Matplotlib, Seaborn (for visualization)
+
+Scikit-learn (SVM, train/test split, metrics, StandardScaler)
+
+📊 Dataset
+
+The dataset is diabetes.csv (Pima Indians Diabetes Database).
+
+Features include: pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, age.
+
+Target: Outcome (1 → Diabetic, 0 → Non-Diabetic).
+
+
 
 Recall Improvement Attempts
 
